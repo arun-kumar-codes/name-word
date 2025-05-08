@@ -93,6 +93,7 @@ const SignInPage = () => {
 
     if (isEmailValid && isPasswordValid) {
       console.log("Form submitted:", { email, password });
+      navigate("/dashboard")
       // Here you would typically handle the sign-in logic
     }
   };
